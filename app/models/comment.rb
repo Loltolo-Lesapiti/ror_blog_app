@@ -1,11 +1,15 @@
+# frozen_string_literal: true
+
+# The class represents a comment
+
 class Comment < ApplicationRecord
-    belongs_to :author, class_name: 'User'
-    belongs_to :post
-    after_save :update_comments_counter
-  
-    private
-  
-    def update_comments_counter
-      post.increment!(:comments_counter)
-    end
+  belongs_to :author, class_name: 'User'
+  belongs_to :post
+  after_save :update_comments_counter
+
+  private
+
+  def update_comments_counter
+    post.increment!(:comments_counter)
+  end
 end

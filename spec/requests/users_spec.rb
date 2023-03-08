@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe 'Users', type: :request do
@@ -11,9 +13,14 @@ RSpec.describe 'Users', type: :request do
       expect(response.status).to eql(200)
     end
 
+    it 'renders correct template' do
+      get '/'
+      expect(response).to render_template(:index)
+    end
+
     it 'includes correct text' do
       get '/'
-      expect(response.body).to include('Users')
+      expect(response.body).to include('Shows the list of all the users')
     end
   end
 

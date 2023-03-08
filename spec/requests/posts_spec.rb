@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe 'Posts', type: :request do
@@ -6,6 +8,11 @@ RSpec.describe 'Posts', type: :request do
       get '/users/:id/posts'
       expect(response).to have_http_status(:ok)
     end
+    it 'renders correct template' do
+      get '/users/120/posts'
+      expect(response).to render_template(:index)
+    end
+
     it 'passes with status 200' do
       get '/users/120/posts'
       expect(response.status).to eql(200)
