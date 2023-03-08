@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # Application record class that enxtends the Active record class
 
 class ApplicationRecord < ActiveRecord::Base

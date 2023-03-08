@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # This class represents a blog post.
 # A post can have many comments and belongs to a user.
 # It also has a title and body, which are required fields.

@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # This class represents a User.
 # A User can have many posts
 # It also has a name, bio, image, which are required fields.

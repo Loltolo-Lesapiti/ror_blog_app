@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # The class represents a comment
 
 class Comment < ApplicationRecord
