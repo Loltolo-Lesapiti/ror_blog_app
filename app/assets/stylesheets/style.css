@@ -12,12 +12,17 @@ a {
   gap: 50px;
   margin: 20px 0;
   align-items: center;
-  border: 2px solid black;
   padding: 10px 20px;
 }
 
 .posts-counter {
   color: #000;
+  float: right;
+}
+.details{
+  width:100%;
+  border: 2px solid black;
+  padding: 20px;
 }
 
 .full_post {
@@ -41,15 +46,21 @@ a {
   flex-direction: column;
   border: 2px solid black;
   gap: 2px;
+  padding: 10px;
 }
-.like-and-comment{
-  float: left;
+.like-and-comment p{
+  float: right;
+  padding: 10px;
 }
 .all_posts{
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 20px;
 }
 .comments{
   border: 2px solid black;
+}
+.pagination{
+  margin-top: 15px;
+  margin-left: 30%;
 }
