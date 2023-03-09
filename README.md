@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Blog <a name="about-project"></a>
 
-> This project creates controllers and views for the Blog app and tests them. The views are static HTML while the controllers are empty action/methods now.
+> This project adds the Views associated with the Models and Controllers of the Blog App.
 
 ## 🛠 Built With <a name="built-with"></a>
 
