@@ -36,3 +36,20 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.post{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  gap: 2px;
+}
+.like-and-comment{
+  float: left;
+}
+.all_posts{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.comments{
+  border: 2px solid black;
+}
