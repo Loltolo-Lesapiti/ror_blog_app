@@ -8,7 +8,7 @@
         <% if post.comments.empty? %>
           <p>Empty</p>
         <% else %>
-            <% post.comments.each do |comment| %>
+            <% @recent_comments.each do |comment| %>
              <p class="comment-body"><%= comment.author.name %>: <%= comment.text %></p>
             <%end%>
             <%end%>
