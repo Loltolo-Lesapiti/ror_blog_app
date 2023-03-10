@@ -4,7 +4,7 @@ class PostsController < ApplicationController
     @user = User.find(params[:author_id])
     @posts = @user.posts.includes(:comments)
   end
-  
+
   def create
     @post = Post.new(author: current_user, title: params[:title], text: params[:text])
     @post.author = current_user
@@ -21,5 +21,4 @@ class PostsController < ApplicationController
     @post = Post.find(params[:id])
     @comments = @post.comments
   end
-
 end

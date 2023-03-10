@@ -83,13 +83,23 @@ After you're finished please remove all the comments and instructions!
 </details>
 
 <!-- Features -->
-<!-- ### Key Features <a name="key-features"></a>
+
+### Key Features <a name="key-features"></a>
 
 > The Following are key features of this blog website
 
+- [x] **A user can add a posts**
 - [x] **A user can display a list of posts**
 - [x] **A user can add a comment to a post**
+- [x] **A user can like a post**
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+-[x] **Delete Post**
+
+<!--
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
