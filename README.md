@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Blog <a name="about-project"></a>
 
-> This project adds the Views associated with the Models and Controllers of the Blog App.
+> In this project I added forms to the Blog app.
 
 ## 🛠 Built With <a name="built-with"></a>
 
