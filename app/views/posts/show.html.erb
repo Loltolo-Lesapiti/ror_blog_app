@@ -1,2 +1,21 @@
-<h1>Posts</h1>
-<p>Shows all the posts by a particular user</p>
+<div class="full_post">
+<div class="post_body">
+  <div class="post_header">
+    <h4>Post by: <%= @post.author.name %></h4>
+    <p>
+      Comments: <%= @post.comments_counter %> 
+      Likes: <%= @post.likes_counter %>
+    </p>
+  </div>
+  <p class="post-text"><%= @post.text %></p>
+</div>
+  <div class="post-comments">
+    <% if @post.comments.empty? %>
+    <p>Add comment</p>
+    <% else %>
+    <% @post.recent_comments.each do |comment| %>
+      <p><%= comment.author.name %>: <%= comment.text %></p>
+    <%end%>
+    <%end%>
+</div>
+</div>

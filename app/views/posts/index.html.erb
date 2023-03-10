@@ -1,1 +1,22 @@
-<h1>Posts</h1>
+<div class="posts">
+ <%= render "shared/details", user: @user %>
+  <div class="all_posts">
+   <% @posts.each_with_index do |post| %>
+    <div>
+     <%= link_to user_post_path(user_id:@user.id, id: post.id) do%>
+       <%= render "shared/post_details", post: post %>
+     </div>
+        <div class="comments">
+        <% if post.comments.empty? %>
+          <p>Empty</p>
+        <% else %>
+            <% post.recent_comments.each do |comment| %>
+             <p class="comment-body"><%= comment.author.name %>: <%= comment.text %></p>
+            <%end%>
+            <%end%>
+        </div>
+      <% end %>
+   <%end%>
+  </div>
+   <button class="pagination">pagination</button>
+</div>
