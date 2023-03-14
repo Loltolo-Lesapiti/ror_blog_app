@@ -9,7 +9,6 @@ RSpec.describe 'User Show Page', type: :system do
       photo: 'https://images.unsplash.com/photo-1531123414780-f74242c2b052?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTJ8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
     )
 
-
     @post = Post.create(
       author_id: @user.id,
       title: 'Imposter Syndrome',
@@ -26,7 +25,6 @@ RSpec.describe 'User Show Page', type: :system do
   end
 
   before { subject.save }
-
 
   describe 'User show page' do
     it 'should display the profile picture of the user.' do
