@@ -1,7 +1,7 @@
 # Posts controller class extends application controller
 class PostsController < ApplicationController
   def index
-    @user = User.find(params[:author_id])
+    @user = User.find(params[:user_id])
     @posts = @user.posts.includes(:comments)
   end
 
@@ -17,8 +17,7 @@ class PostsController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:author_id])
     @post = Post.find(params[:id])
-    @comments = @post.comments
+    @user = User.find(params[:user_id])
   end
 end

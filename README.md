@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Blog <a name="about-project"></a>
 
-> In this project I added forms to the Blog app.
+> In this project, we created integration tests for all of the views used in the project. We covered the user stories while taking into consideration the possible errors users may cause.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -194,6 +194,12 @@ To run tests, run the following command:
 
 - GitHub: [@petrolesapiti](https://github.com/Loltolo-Lesapiti)
 - LinkedIn: [@petrolesapiti](https://www.linkedin.com/in/petrolesapitiloltolo/)
+
+👤 **Fuad Nabiyev**
+
+- GitHub: [@githubhandle](https://github.com/FuadNabi)
+- Twitter: [@twitterhandle](https://twitter.com/FuadNebiyev2)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fuad-nabiyev/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
