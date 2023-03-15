@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Blog <a name="about-project"></a>
 
-> In this project, we created integration tests for all of the views used in the project. We covered the user stories while taking into consideration the possible errors users may cause.
+> In this project, we added the devise gem to the Blog-app and used it for the registration and login of users.
 
 ## 🛠 Built With <a name="built-with"></a>
 
